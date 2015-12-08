@@ -1,0 +1,9 @@
+* { margin:0px; padding:0px; }
+
+#messages{
+  min-height:300px;
+  overflow-y: auto;
+  border: solid 1px #ccc;
+  border-radius:5px;
+  margin:25px 0;
+}

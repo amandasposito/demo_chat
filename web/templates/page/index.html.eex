@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-md-12" id="messages"></div>
+  <br/>
+
+  <div class="col-md-2 form-group">
+    <label>Username</label>
+    <input id="username" type="text" class="form-control" />
+  </div>
+
+  <div class="col-md-10 form-group">
+    <label>Message</label>
+    <input id="message" type="text" class="form-control" />
+  </div>
+</div>

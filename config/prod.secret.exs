@@ -12,7 +12,7 @@ config :demo_chat, DemoChat.Endpoint,
 Configure your database
 config :demo_chat, DemoChat.Repo,
   adapter: Ecto.Adapters.Postgres,
-  # username: "postgres",
-  # password: "postgres",
-  # database: "demo_chat_prod",
-  # pool_size: 20
+  username: System.get_env("DATABASE_USERNAME"),
+  password: System.get_env("DATABASE_PASSWORD"),
+  database: "demo_chat_prod",
+  pool_size: 20

@@ -1,5 +1,17 @@
+<br />
+<div class="alert alert-info">
+
+  Bem-vindo ao chat demo escrito em Elixir , utilizando o framework Phoenix
+
+</div>
+
 <div class="row">
-  <div class="col-md-12" id="messages"></div>
+  <div class="col-md-12">
+
+      <div id="messages">
+      </div>
+
+  </div>
   <br/>
 
   <div class="col-md-2 form-group">
